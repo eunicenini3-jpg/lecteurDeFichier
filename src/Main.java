@@ -9,10 +9,13 @@ public class Main {
         File file = new File("file.txt");
         Scanner fileScanner = new Scanner(file);
         Scanner input = null;
+        int totalMots = 0;
         while (input.hasNextLine()) {
             String line = input.nextLine();
             String[] mots = line.split(" ");
             int nombreMots = mots.length;
+            totalMots += nombreMots;
+            System.out.println();
         }
 
 
