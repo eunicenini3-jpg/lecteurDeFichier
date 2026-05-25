@@ -12,6 +12,7 @@ public class Main {
         while (input.hasNextLine()) {
             String line = input.nextLine();
             String[] mots = line.split(" ");
+            int nombreMots = mots.length;
         }
 
 
